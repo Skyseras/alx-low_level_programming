@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 /**
-*main - Ommit some alphabet
+*main - Prints the numbers since 0 to 9
 *
 *Return: Always (Success)
 */
 int main(void)
 
 {
-		char c;
+    char n;
 
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			if (c != 'e' && c != 'q')
+    for (n = '0'; n <= '9'; n++)
 
-			{
-				putchar(c);
-			}
-		}
-		putchar('\n');
-return (0);
+        {
+
+            putchar(n);
+
+        }
+
+    putchar('\n');
+
+    return (0);
 }
