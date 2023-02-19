@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main-entry point for the proogram.
+ * Return: 0 if no errors return non zero if errors
+ */
 int main(void)
 {
 	printf("size of a char: %ld byte(s)\n", sizeof(char));

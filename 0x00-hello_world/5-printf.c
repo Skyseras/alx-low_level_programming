@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * c program to print with new line.
+ * main - prints exactly with proper grammar
+ * followed by new line
+ * Return: 0 if no errors, return non zero if errors
  */
 int main(void)
 {
